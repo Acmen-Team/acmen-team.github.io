@@ -202,6 +202,12 @@ exclude:
   - /vendor
 
 defaults:
+  ## home
+  - scope:
+      path: "test"
+    values:
+      articles:
+        excerpt_type: html
   - scope:
       path: ""
       type: posts
@@ -214,7 +220,20 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-
+  ## GameDesign
+  - scope:
+      path: "GameDesign/zh"
+    values:
+      layout: article
+      nav_key: GameDesign
+      sidebar:
+        nav: GameDesign-zh
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+      # lightbox: true
 
 ## => Plugins
 ##############################

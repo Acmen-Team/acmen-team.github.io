@@ -47,7 +47,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /GameDesign.html
+    url: /GameDesign/zh/Ancient-Chinese-Games
 
   - titles:
       # @start locale config
@@ -98,3 +98,11 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+GameDesign-zh:
+  - title:      中国古代游戏
+    url:    /GameDesign/zh/Ancient-Chinese-Games
+  - title:      游戏内容
+    children:
+      - title:  六博棋
+        url:    /GameDesign/zh/Liubo-Chess
