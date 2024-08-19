@@ -26,12 +26,12 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       DevLog
+      en      : &EN       GameDesign
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  开发日志
+      zh-Hans : &ZH_HANS  游戏设计
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
@@ -47,7 +47,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /DevLog.html
+    url: /GameDesign.html
 
   - titles:
       # @start locale config
