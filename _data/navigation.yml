@@ -106,3 +106,5 @@ GameDesign-zh:
     children:
       - title:  六博棋
         url:    /GameDesign/zh/Liubo-Chess
+      - title:  选仙钱
+        url:    /GameDesign/zh/Xuanxian-Coin
